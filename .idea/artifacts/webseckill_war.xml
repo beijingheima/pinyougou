@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="webseckill:war">
+    <output-path>$PROJECT_DIR$/webseckill/target</output-path>
+    <root id="archive" name="web-seckill.war">
+      <element id="artifact" artifact-name="webseckill:war exploded" />
+    </root>
+  </artifact>
+</component>
