@@ -12,3 +12,4 @@ generatorConfig.xml
 *.cache
 *.lock
 Test*.java
+*.idea
