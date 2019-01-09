@@ -27,6 +27,7 @@ import java.util.Map;
  * 这个接口中有servletContext对象, 已经被spring初始化了, 我们实现这个接口, 实现它的方法
  * 有spring初始化ServletContextAware接口中的servletContext对象, 我们用这个对象给我们
  * 本类中的servletContext属性赋值, 也就是servletContext对象被初始化了
+ *
  */
 @Service
 public class CmsServiceImpl implements CmsService, ServletContextAware {
